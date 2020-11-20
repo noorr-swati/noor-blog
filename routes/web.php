@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home')->middleware('meveto.check');
+Route::get('/home', 'HomeController@index')->name('home');//->middleware('meveto.check');
 
 Route::get('meveto/login', 'MevetoController@login')->name('meveto.login');
 Route::get('meveto/redirect', 'MevetoController@handleRedirect')->name('meveto.redirect');
