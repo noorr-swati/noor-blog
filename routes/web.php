@@ -19,4 +19,14 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home')->middleware('meveto.check');
+
+Route::get('meveto/login', 'MevetoController@login')->name('meveto.login');
+Route::get('meveto/redirect', 'MevetoController@handleRedirect')->name('meveto.redirect');
+Route::get('/connect-to-meveto', 'MevetoController@loginPage')->name('meveto-connect');
+Route::post('meveto/connect', 'MevetoController@connectToMeveto')->name('meveto.connect');
+Route::get('use-meveto', 'MevetoController@useMevetoPage')->name('meveto.use');
+Route::get('logout', 'Auth\LoginController@logout');
+
+// Application's webhook that will be called by Meveto
+Route::post('meveto/webhook', 'MevetoController@handleWebhookCall');
