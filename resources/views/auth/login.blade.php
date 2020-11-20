@@ -56,7 +56,7 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
                                 </button>
-                                <a href="#Link" target="_blank" style="background-color: #099404;
+                                <a href="https://dashboard.meveto.com/oauth-client?client_id=6833&scope=default-client-access&response_type=code&redirect_uri=http://142.93.242.101/meveto/redirect&state=55V6WtTw9q4IgWUObj6D7ISKDhgoNeYV02kJrqknwO4tYmo4mWjLpuJYIDxZYSIMGaGbzl6LrmlTfrWuWNY5AtyS0yIRH5UlTQMl3QdgJbGuCf24Q8LXybFYZ1Pc8ygNZy9cebzoCDFkpx6zj903c6plkSm0ZafZ5eaRxIU1kQP0BGwYCUz8KtzhGQeu2Hc1n2aAt7D3mrPlbI6gvpwPLYcsJmMB1P29tjQjzpUzhGHOrokZX4shvdLpoJWfQOBI" target="_blank" style="background-color: #099404;
                                 color: white;
                                 padding: 7px 25px;
                                 border-radius: 5px;
