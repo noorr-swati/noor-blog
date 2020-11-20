@@ -69,7 +69,7 @@
                                     </a>
                                 @endif
 
-                                <div class="row">
+                                <div class="row" style="float: left; margin: 0;">
                                     <div class="col d-flex justify-content-center">
                                         @if (Route::has('meveto.login'))
                                             <a href="{{ route('meveto.login') }}" class="btn btn-success">
