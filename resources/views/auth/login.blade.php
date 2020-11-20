@@ -56,9 +56,9 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
                                 </button>
-                                <a href="#Link" target="_blank" style="background-color: #3cf436;
+                                <a href="#Link" target="_blank" style="background-color: #099404;
                                 color: white;
-                                padding: 14px 25px;
+                                padding: 7px 25px;
                                 border-radius: 5px;
                                 text-align: center;
                                 text-decoration: none;
